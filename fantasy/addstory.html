@@ -90,6 +90,7 @@
        <!--================Contact Area =================-->
     <section class="contact_area section-gap">
         <div class="container">
+<<<<<<< HEAD
              <div class="map-wrap" style="width:100%;" id="mapBox"></div>
                  <div class="row">
                         <div class="col-lg-9  mx-auto text-center justify-content-center col-md-offset-3" style="font-family: Bree Serif, serif;">
@@ -100,13 +101,47 @@
                             <div class="form-group">
                               <textarea class="form-control" name="message" id="message" rows="1" style="height: 730px; width: 930px;" placeholder="Enter Message"></textarea>
                             </div>
+=======
+             <div class="row">
+                 <div class="col-lg-12 pb-5">
+                     <h2 class="text-center">Travel Blog</h2>
+                 </div>
+                 <div class="col-lg-12 pt-4">
+                    <form class="row contact_form" action="contact_process.php" method="post" id="contactForm"
+                    novalidate="novalidate">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="Title" placeholder="Enter Blog Title">
+>>>>>>> e7600e8f0e0a77bd5fc37cd1af300b46b510dae6
                         </div>
-                        <div class="col-md-12 text-right  mx-auto text-center justify-content-center col-md-offset-3">
-                            <button type="submit" value="submit" class="btn submit_btn" style="font-family: Bree Serif, serif;">Send Message</button>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="file" class="form-control" name="img1">
                         </div>
-                    </form>
-                </div>
-            </div>
+                        <div class="form-group">
+                            <input type="file" class="form-control" name="img2">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="file" class="form-control" name="img3">
+                        </div>
+                        <div class="form-group">
+                            <input type="file" class="form-control" name="img4">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <textarea class="form-control" name="message"  rows="1" placeholder="Enter Description"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12 text-right">
+                        <button type="submit" value="submit" class="btn submit_btn">Submit Blog</button>
+                    </div>
+                </form>
+                 </div>
+             </div>
         </div>
     </section>
     <!--================Contact Area =================-->
